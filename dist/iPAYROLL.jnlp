@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="iPAYROLL.jnlp">
+  <information>
+    <title>iPAYROLL</title>
+    <vendor>Abdelkader</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="iPAYROLL.jar" size="119832" download="eager" />
+    <jar href="lib\derby.jar" size="3104883" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="iPAYROLL" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="iPAYROLL.iPAYROLL"  name="iPAYROLL" />
+  <update check="always"/>
+</jnlp>

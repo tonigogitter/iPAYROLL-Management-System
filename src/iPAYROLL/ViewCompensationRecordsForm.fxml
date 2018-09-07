@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPAYROLL.ViewCompensationRecordsFormController">
+   <children>
+      <Label layoutX="206.0" layoutY="22.0" text="View Compensation Records">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="OKBtn1" layoutX="125.0" layoutY="339.0" mnemonicParsing="false" onAction="#OkBtn" text="Ok" />
+      <Button fx:id="cancelBtn" layoutX="461.0" layoutY="339.0" mnemonicParsing="false" onAction="#cancel" text="Dismiss" />
+      <ComboBox fx:id="EmployeeIds1" layoutX="14.0" layoutY="43.0" prefWidth="150.0" promptText="Select EmployeeID" />
+      <Label layoutX="75.0" layoutY="110.0" text="Net Pay" />
+      <Label layoutX="231.0" layoutY="110.0" text="Check Number" />
+      <Label layoutX="161.0" layoutY="225.0" text="Account Number" />
+      <Label layoutX="395.0" layoutY="110.0" text="Payment Period Begin" />
+      <Label layoutX="310.0" layoutY="217.0" text="Payment Period End" />
+      <TextField fx:id="npay1" layoutX="22.0" layoutY="138.0" />
+      <TextField fx:id="checkno1" layoutX="207.0" layoutY="138.0" />
+      <TextField fx:id="paybegin1" layoutX="395.0" layoutY="138.0" />
+      <TextField fx:id="paymentend1" layoutX="310.0" layoutY="256.0" />
+      <TextField fx:id="accountno1" layoutX="132.0" layoutY="256.0" />
+   </children>
+</AnchorPane>
